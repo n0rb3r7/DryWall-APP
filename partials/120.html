@@ -1,0 +1,88 @@
+<section id="cover" class="cover element">
+    <div id="input120" class="container aos-item" data-aos="fade-down">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2>INGRESAR MEDIDAS</h2>
+                <form name="myform120" onsubmit="desmontable120()">
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12 form-group">
+                            <input class="btn input" id="ladoA120" placeholder="ANCHO" type="number" step="0.1" required>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 col-xs-12 form-group">
+                            <input class="btn input" id="ladoB120" placeholder="LARGO" type="number" step="0.1" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-sm-12 col-xs-12">
+                            <input class="btn" type="submit" value="CALCULAR!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="output120" class="container hidden aos-item" data-aos="fade-down">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 ">
+                <table class="tablas">
+                    <tr>
+                        <th>Cielorraso Desmontable 120 x 60</th>
+                        <th id="area">Superficie: </th>
+                    </tr>
+                </table>
+                <table class="tablas">
+                    <tr>
+                        <td>Ancho:</td>
+                        <td id="anchoA">0.00m</td>
+                        <td>Largo:</td>
+                        <td id="largoB">0.00m</td>
+                    </tr>
+                </table>
+                <table class="tablas">
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Materiales</th>
+                    </tr>
+                    <tr>
+                        <td id="placasD">0</td>
+                        <td>Placa Yeso Desmontable 1.20m x 0.60m</td>
+
+                    </tr>
+
+                    <tr>
+                        <td id="perimetral">0</td>
+                        <td>Perimetral 3.00m</td>
+
+                    </tr>
+
+                    <tr>
+                        <td id="larguero">0</td>
+                        <td>Larguero 3.66m</td>
+
+                    </tr>
+
+
+
+
+                    <tr>
+                        <td id="travesanio122">0</td>
+                        <td>Travesaño 1.22m</td>
+
+                    </tr>
+                    <tr>
+                        <td id="fijaciones6">0</td>
+                        <td>Tornillo + Tarugo 6mm</td>
+
+                    </tr>
+                    <tr>
+                        <td id="alambre">0</td>
+                        <td>Rollo Alambre 1kg</td>
+
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+</section>

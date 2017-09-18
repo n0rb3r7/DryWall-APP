@@ -1,0 +1,27 @@
+.tablas {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f2f2f3;
+}
+
+.tablas td,
+#tablas th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tablas tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tablas tr:hover {
+    background-color: #ddd;
+}
+
+.tablas th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0B0C0E;
+    color: white;
+}

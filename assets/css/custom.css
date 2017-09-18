@@ -1,0 +1,180 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body,
+html {
+    height: auto;
+    min-height: 100vh;
+    background-color: #F5BB00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.case {
+    display: table;
+    width: 100%;
+}
+
+.element {
+    display: table-cell;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cover {
+    height: 100vh;
+    max-height: 120vh;
+    padding-top: 74px;
+}
+
+.title {
+    color: #0B0C0E;
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+.smooth {
+    color: dimgray;
+    font-size: 0.8em;
+}
+
+.paddingH {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding {
+    padding: 5 5 5 5;
+}
+
+.paddingicons {
+    padding: 20 20 20 20;
+}
+
+.paddingBox {
+    padding: 15 15 15 15;
+}
+
+.paddingbutton {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.border {
+    border: 0;
+    border-color: #0B0C0E;
+    outline: 0 none;
+}
+
+.input {
+    color: #0B0C0E!important;
+    background-color: #f1f1f1!important;
+}
+
+.btn {
+    padding: 15px 30px 15px 30px;
+    border: 0 none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0 none;
+}
+
+.btn {
+    color: #ffffff;
+    border-radius: 0;
+    background: #0B0C0E;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary {
+    background: #DB3A34;
+}
+
+.btn-primary.active,
+.btn-primary:active {
+    background: #DB3A34;
+    box-shadow: none;
+}
+
+.parallax {
+    height: 100vh;
+    color: white;
+    background-image: url("http://i1378.photobucket.com/albums/ah119/StangeStudio/aturbine_zpsmxy9ec5f.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.breathR:hover {
+    color: #ff0064;
+    -webkit-transition: all 0.2s;
+}
+
+.breathR {
+    color: black;
+    -webkit-transition: all 7s;
+}
+
+.breathG:hover {
+    color: #1ABC9C;
+    -webkit-transition: all 0.2s;
+}
+
+span {
+    color: #D5D6DB;
+    transition-duration: 1s;
+}
+
+span:hover {
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+    animation: 0.5s myChange;
+}
+
+input {
+    width: 100%;
+    color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        font-size: 0.6em;
+    }
+}
