@@ -29,38 +29,29 @@
     <!-- all: hides the status bar at the top of the screen -->
 
     <preference name="android-installLocation" value="auto" />
-    <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
-    <!--
-        Define a specific version of PhoneGap to build into your app.
-        <preference name="phonegap-version"       value="3.5.0" />
-    -->
 
-    <!-- Plugins -->
 
-    <!-- Core plugins -->
 
-    <plugin name="cordova-plugin-splashscreen" /> >
-
-    <!-- Third party plugins -->
-    <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <plugin name="com.phonegap.plugins.barcodescanner" />
-    -->
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
 
     <!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
-    <icon src="assets/img/drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
-    <icon src="assets/img/drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
-    <icon src="assets/img/drawable-hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi" />
-    <icon src="assets/img/drawable-xhdpi/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
-
     <!-- Define app splash screen for each platform. -->
     <platform name="android">
-        <splash src="assets/img/drawable-hdpi/screen.png" density="port-hdpi" />
-        <splash src="assets/img/drawable-xhdpi/screen.png" density="port-ldpi" />
-        <splash src="assets/img/drawable-mdpi/screen.png" density="port-mdpi" />
-        <splash src="assets/img/drawable-xhdpi/screen.png" density="port-xhdpi" />
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="assets/img/drawable-ldpi/icon.png" />
+        <icon density="mdpi" src="assets/img/drawable-mdpi/icon.png" />
+        <icon density="hdpi" src="assets/img/drawable-hdpi/icon.png" />
+        <icon density="xhdpi" src="assets/img/drawable-xhdpi/icon.png" />
+        <splash density="port-ldpi" src="assets/img/drawable-xhdpi/screen.png" />
+        <splash density="port-mdpi" src="assets/img/drawable-mdpi/screen.png" />
+        <splash density="port-hdpi" src="assets/img/drawable-hdpi/screen.png" />
+        <splash density="port-xhdpi" src="assets/img/drawable-xhdpi/screen.png" />
     </platform>
+
 
 
     <access origin="*" />
