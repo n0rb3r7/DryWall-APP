@@ -35,7 +35,7 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ececec;
+    background-color: #0B0C0E;
 }
 
 
@@ -55,4 +55,9 @@
 .navbar-toggle:active {
     background-color: #0B0C0E!important;
     color: red;
+}
+
+.lista {
+    background-color: #0B0C0E;
+    color: #d5d5d5;
 }

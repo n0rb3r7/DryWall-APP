@@ -47,12 +47,18 @@ html {
     padding-bottom: 20px;
 }
 
+.paddingHx2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .padding {
     padding: 5 5 5 5;
 }
 
 .paddingicons {
-    padding: 20 20 20 20;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .paddingBox {
@@ -74,6 +80,11 @@ html {
 .input {
     color: #0B0C0E!important;
     background-color: #f1f1f1!important;
+}
+
+.btn:hover {
+    color: #DB3A34!important;
+
 }
 
 .btn {
@@ -99,7 +110,7 @@ html {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover,
-.open>.dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
     background: #DB3A34;
 }
 
@@ -134,6 +145,25 @@ html {
     -webkit-transition: all 0.2s;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.white {
+    color: #f1f1f1;
+}
+
+.white:hover {
+    color: white;
+}
+
+.dropdown-toggle {
+    color: #0B0C0E;
+}
 
 /*
 span {
