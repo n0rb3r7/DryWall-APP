@@ -31,6 +31,7 @@ html {
 
 .title {
     color: #0B0C0E;
+    font-size: 3.1em;
 }
 
 .paragraph {
@@ -81,10 +82,18 @@ html {
     color: #0B0C0E!important;
     background-color: #f1f1f1!important;
 }
-
+.btn2 {
+    padding: 15px 30px 15px 30px;
+    border: 0 none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-radius: 0;
+    background: rgb(52, 52, 53);
+}
 .btn:hover {
-    color: #DB3A34!important;
-
+    color: white;
 }
 
 .btn {
@@ -110,7 +119,7 @@ html {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover,
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
     background: #DB3A34;
 }
 
@@ -118,6 +127,15 @@ html {
 .btn-primary:active {
     background: #DB3A34;
     box-shadow: none;
+}
+
+.hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .parallax {
@@ -165,6 +183,7 @@ a:link {
     color: #0B0C0E;
 }
 
+
 /*
 span {
     color: #D5D6DB;
@@ -211,5 +230,9 @@ input {
     }
     .btn {
         font-size: 0.8em;
+    }
+    .title{
+        font-stretch: expanded;
+        font-size: 2em;
     }
 }
