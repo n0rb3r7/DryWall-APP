@@ -1,4 +1,4 @@
-  function desmontable120() {
+function desmontable120() {
 
 
       var ladoA = document.getElementById("ladoA120").value;
