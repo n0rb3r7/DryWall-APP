@@ -29,9 +29,9 @@
     <!-- all: hides the status bar at the top of the screen -->
 
     <preference name="android-installLocation" value="auto" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 
+    <preference name="android.permission.WRITE_EXTERNAL_STORAGE" />>
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="FadeSplashScreenDuration" value="1000" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
