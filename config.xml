@@ -52,7 +52,7 @@
         <splash density="port-xhdpi" src="assets/img/drawable-xhdpi/screen.png" />
     </platform>
 
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <access origin="*" />
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
